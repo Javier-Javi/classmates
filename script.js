@@ -10,7 +10,6 @@ yesBtn.addEventListener("click", () => {
     gif.style.width = "380px";
     audio.play();
     yesBtn.remove();
-    noBtn.remove();
     gif.remove();
 
     const myImage1 = new Image(100, 200);
